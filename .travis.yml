@@ -1,0 +1,6 @@
+language: csharp
+mono: none
+dotnet: 2.1.502
+script:
+ - dotnet restore ./Reportity/Reportity.sln
+ - dotnet build ./Reportity/Reportity.sln
